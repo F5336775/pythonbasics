@@ -1,15 +1,24 @@
 def read_numbers_from_file(filename):
-    with open(filename, 'r') as file:
-        # List of float point numbers for accuracy and precision
-        numbers = [float(line.strip()) for line in file]
-    return numbers
+    try:
+        with open(filename, 'r') as file:
+            numbers = [float(line.strip()) for line in file]
+        return numbers
+    except FileNotFoundError:
+        print(f"Error: File '{filename}' not found.")
+        return []
+    except Exception as e:
+        print(f"An error occurred while reading the file: {e}")
+        return []
 
 
 def write_numbers_to_file(filename, numbers):
-    with open(filename, 'w') as file:
-        for number in numbers:
-            file.write(f"{number}\n")
-    print(f"Sorted numbers saved to {filename}")
+    try:
+        with open(filename, 'w') as file:
+            for number in numbers:
+                file.write(f"{number}\n")
+        print(f"Sorted numbers saved to {filename}")
+    except Exception as e:
+        print(f"An error occurred while writing to the file: {e}")
 
 
 # Timsort default sorting algorithm
