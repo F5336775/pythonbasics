@@ -41,8 +41,9 @@ def bubble_sort(numbers):
 
     return numbers
 
+
 # Merge sort
-# Time complexity of o(nlogn)
+# Time complexity of o(n log n)
 def merge_sort(numbers):
     if len(numbers) > 1:
         mid = len(numbers) // 2

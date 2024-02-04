@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df8e34af-3dc9-4b9d-a262-7a17c9347f44" name="Changes" comment="- Added bubble sort and merge sort strategies for use cases based on the size of data." />
+    <list default="true" id="df8e34af-3dc9-4b9d-a262-7a17c9347f44" name="Changes" comment="- Added exception handling for IO operations.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Challange_Sorter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Challange_Sorter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unsorted_Values.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Unsorted_Values.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_data.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706988742875</updated>
       <workItem from="1706988872927" duration="1020000" />
-      <workItem from="1706990220930" duration="4468000" />
+      <workItem from="1706990220930" duration="5649000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit:&#10;- Implemented reading and writing logic&#10;- Used default sorting algorithm">
       <option name="closed" value="true" />
@@ -78,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706994566011</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- Added exception handling for IO operations.">
+      <option name="closed" value="true" />
+      <created>1706994970519</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706994970519</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,10 +111,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit:&#10;- Implemented reading and writing logic&#10;- Used default sorting algorithm" />
     <MESSAGE value="- Added bubble sort and merge sort strategies for use cases based on the size of data." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added bubble sort and merge sort strategies for use cases based on the size of data." />
+    <MESSAGE value="- Added exception handling for IO operations." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added exception handling for IO operations." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$generate_data.coverage" NAME="generate_data Coverage Results" MODIFIED="1706994357240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$Python_Challange_Sorter.coverage" NAME="Python_Challange_Sorter Coverage Results" MODIFIED="1706994368914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$generate_data.coverage" NAME="generate_data Coverage Results" MODIFIED="1706995216469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$Python_Challange_Sorter.coverage" NAME="Python_Challange_Sorter Coverage Results" MODIFIED="1706995311478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
